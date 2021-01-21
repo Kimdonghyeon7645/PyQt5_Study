@@ -14,6 +14,7 @@ class MyApp(QWidget):
         QToolTip.setFont(QFont('SansSerif', 10))    # 먼저 툴팁에 사용할 폰트 설정 : setFont(QFont("폰트이름", 폰트크기(px)))
 
         self.setToolTip('요건 <b>QWidget</b>의 툴팁 <small>입니다!</small>')  # self(= MyApp = 기본 창 위젯)에 툴팁 생성 : setToolTip("표시될 html") 
+        # self.setToolTip('<img src="1_Basics/icon.png">')    # 툴팁은 이미지도 된다 ^^ (html 기반이라 웬만한 태그 다먹음)
 
         btn = QPushButton('Button', self)   # 푸쉬버튼 생성
         btn.setToolTip('요고슨 <p style="color:red;">QPushButton</p><p>의 <mark>툴팁</mark> 입니다!</p>')   # 푸쉬버튼에 툴팁 생성
