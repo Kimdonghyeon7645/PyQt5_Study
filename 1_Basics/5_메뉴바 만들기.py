@@ -14,7 +14,7 @@ class MyApp(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        exitAction = QAction(QIcon('1_Basics/exit.png'), 'Exit', self)   
+        exitAction = QAction(QIcon('image_data/exit.png'), 'Exit', self)   
         # 아이콘(exit.png) 과 라벨(Exit)를 가지는 동작 생성 : Qaction(아이콘객체, "라벨 내용", self)
         exitAction.setShortcut('Ctrl+Q')    # 동작의 단축키(shortcut) 생성 : setShortcut("단축키")
         exitAction.setStatusTip("나가시게?")   # 동작의 상태팁(=툴팁처럼 마우스를 올리면 생기는데 상태바 위치에 텍스트 생김) 생성 : setStatusTip("상태팁 내용")
