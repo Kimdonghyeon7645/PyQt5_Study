@@ -1,11 +1,10 @@
 # PyQt5_Study
 PyQt5에 대해 공부하고 정리하는 repo
 
-- PyQt의 실행순서
+## 개요 
 
-![좋은자료다](https://wikidocs.net/images/page/5222/r16.04.png)
+쓸 필요 없어 배우길 미뤄왔던 **PtQy**,  
+회사 프로젝트에서 활용해야 하기에 겸사로 빠삭히 배우고 정리하는 repo
 
 
-- 메인창(Main Window)의 레이아웃
-
-![이것도 그러다](https://user-images.githubusercontent.com/48408417/105280948-616fe800-5bee-11eb-8bcd-3bd926c8e845.png)
+> 북마크해두고 쟁여놓기만한 [Codetorial의 PyQt5 강의](https://codetorial.net/pyqt5/index.html)를 따라서 공부했다.
