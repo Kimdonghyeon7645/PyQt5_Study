@@ -10,12 +10,15 @@ class MyApp(QWidget):
 
     def initUI(self):
         self.setWindowTitle("아이콘!")
-        self.setWindowIcon(QIcon(r"C:\Users\admin\Documents\PyQt5_Study\1_Basics\icon.png"))     # 창의 아이콘 설정
-        # 뭔진 몰라도 어설픈 상대경로는 이미지를 불러오지 못한다. 일단 절대경로를 사용
+        self.setWindowIcon(QIcon("1_Basics/icon.png"))     # 창의 아이콘 설정
+        """
+        FIX 상대경로로 icon.png 이랬는데 이미지가 깨져서 일단 절대경로를 사용했었다.
+        근데 후에 깨달은 것은 상대경로의 기준이 이 파일의 위치가 아니라, 프로젝트 루트 폴더의 위치였다! 
+        """
         
         # self.move(300, 300)     
         # self.resize(400, 200)   
-        self.setGeometry(300, 300, 300, 200)    # 창의 위치, 크기 설정 (move, resize 함수를 합한 역할)
+        self.setGeometry(300, 300, 300, 200)    # 위치와 크기 설정하기 : setGeometry() ; 위의 move, resize 함수 2개를 합한것과 똑같은 역할을 한다.
         self.show()
 
 if __name__ == '__main__':
