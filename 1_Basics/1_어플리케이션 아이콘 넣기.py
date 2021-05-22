@@ -10,7 +10,7 @@ class MyApp(QWidget):
 
     def initUI(self):
         self.setWindowTitle("아이콘!")
-        self.setWindowIcon(QIcon("1_Basics/icon.png"))     # 창의 아이콘 설정
+        self.setWindowIcon(QIcon("image_data/icon.png"))     # 창의 아이콘 설정
         """
         FIX 상대경로로 icon.png 이랬는데 이미지가 깨져서 일단 절대경로를 사용했었다.
         근데 후에 깨달은 것은 상대경로의 기준이 이 파일의 위치가 아니라, 프로젝트 루트 폴더의 위치였다! 
