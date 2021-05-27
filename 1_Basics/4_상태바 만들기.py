@@ -23,7 +23,7 @@ QStatusBar = 상태바 객체
 
 텍스트 사라지게 하기 
     - clearMessage() 메소드 이용
-    - show2MEssage() 메소드에서 텍스트 표시 시간을 설정
+    - showMessage() 메소드에서 텍스트 표시 시간을 설정
 
 현재 상태바에 표시되는 메시지 텍스트 가져오기
     - currentMessage() 메소드 이용
