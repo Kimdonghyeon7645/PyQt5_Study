@@ -15,3 +15,6 @@
     
 - pyinstaller 에 ui 파일 포함하기 
 [링크](https://kwonkyo.tistory.com/534)
+
+- pyinstaller 에 셀레니움 포함하기
+[]()
